@@ -8,7 +8,7 @@ This repository acts as the decentralized community catalog fetched by the launc
 
 ---
 
-## 🚀 How It Works
+## How It Works
 
 1. Developers build an extension or utility for New-launcher.
 2. Developers register their addon using `python tools/community_tool.py register` (which auto-assigns a collision-free ID and pre-screens for safety).
@@ -18,7 +18,7 @@ This repository acts as the decentralized community catalog fetched by the launc
 
 ---
 
-## 📦 Addon Manifest Specification (`addons.json`)
+## Addon Manifest Specification (`addons.json`)
 
 Each entry in `addons.json` must follow this schema:
 
@@ -51,7 +51,7 @@ Each entry in `addons.json` must follow this schema:
 
 ---
 
-## 🛡️ Security & Malware Policies
+## Security & Malware Policies
 
 To protect launcher users, all submissions must comply with the following:
 1. **Zero Native Executables**: Addons are modular UI/data/Python scripts. Release archives **cannot contain `.exe`, `.bat`, `.cmd`, `.dll`, `.ps1`, `.vbs`, `.so`, or `.scr` files**.
